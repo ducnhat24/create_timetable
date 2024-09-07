@@ -3,9 +3,9 @@
 :root {
     --column: 6;
     --row: 10;
-    --border-color: black;
-    --cell-color: #9b8585;
-    --text-color: black;
+    --border-color: #16423C;
+    --cell-color: #FEF9D9;
+    --text-color: #D2E0FB;
 }
 
 body {
