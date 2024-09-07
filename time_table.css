@@ -5,7 +5,7 @@
     --row: 10;
     --border-color: black;
     --cell-color: #9b8585;
-    --text-color: rgb(0, 0, 0);
+    --text-color: black;
 }
 
 body {
