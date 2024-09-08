@@ -23,7 +23,7 @@ body {
     color: var(--text-color);
     
     width: 95%;
-    height: 90vh;
+    height: 95vh;
 
     border: 0.31rem var(--border-color) solid;
     border-radius: 20px;
@@ -34,6 +34,8 @@ body {
     grid-template-rows: 5% 1fr;
     grid-gap: 0.2rem;
     background-color: var(--border-color);
+
+    font-size: 1.38rem;
 }
 
 .table > * {
