@@ -23,7 +23,7 @@ body {
     color: var(--text-color);
     
     width: 95%;
-    height: 138vh;
+    height: 90vh;
 
     border: 0.31rem var(--border-color) solid;
     border-radius: 20px;
