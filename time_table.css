@@ -13,7 +13,7 @@ body {
     padding: 0;
     background-color: #7C93C3;
 
-    height: 200vh;
+    height: 250vh;
 }
 
 .table {
@@ -23,14 +23,16 @@ body {
     color: var(--text-color);
     
     width: 95%;
-    height: 90vh;
+    height: 138vh;
 
-    border: 0.1rem var(--border-color) solid;
+    border: 0.31rem var(--border-color) solid;
+    border-radius: 20px;
+    overflow: hidden; /* Đảm bảo các phần tử con không tràn ra ngoài góc cong */
 
     display: grid;
     grid-template-columns: 5% 1fr;
     grid-template-rows: 5% 1fr;
-    grid-gap: 0.1rem;
+    grid-gap: 0.2rem;
     background-color: var(--border-color);
 }
 
@@ -96,3 +98,4 @@ body {
 .course-room {
     padding: 20px;
 }
+
