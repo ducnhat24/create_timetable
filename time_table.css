@@ -51,7 +51,7 @@ body {
 }
 
 .table .blank div {
-    background-color: var(--cell-color);
+    background-color: var(--blank-cell-color);
 }
 
 .table .header {
