@@ -3,15 +3,15 @@
 :root {
     --column: 6;
     --row: 10;
-    --border-color: #DEE5D4;
-    --cell-color: #8EACCD;
-    --text-color: #FEF9D9;
+    --border-color: #1E2A5E;
+    --cell-color: #55679C;
+    --text-color: #E1D7B7;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #D2E0FB;
+    background-color: #7C93C3;
 
     height: 200vh;
 }
