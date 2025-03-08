@@ -3,16 +3,16 @@
 :root {
     --column: 6;
     --row: 10;
-    --border-color: #1E2A5E;
-    --cell-color: #55679C;
-    --text-color: #E1D7B7;
+    --border-color: #00656B;
+    --cell-color: #89C39B;
+    --text-color: #FFFFFF;
+    --background-color: #BBC1B3;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #7C93C3;
-
+    background-color: var(--background-color);
     height: 250vh;
 }
 
@@ -58,6 +58,7 @@ body {
     grid-template-columns: repeat(var(--column), 1fr);
     grid-template-rows: 1fr;
     grid-gap: 0.1rem;
+    font-weight: 800;
 }
 
 .table .period {
@@ -65,6 +66,7 @@ body {
     grid-template-rows: repeat(var(--row), 1fr);
     grid-template-columns: 1fr;
     grid-gap: 0.1rem;
+    font-weight: 800;
 }
 
 .table .courses {
@@ -72,6 +74,8 @@ body {
     grid-template-rows: repeat(calc(2 * var(--row)), 1fr);
     grid-template-columns: repeat(var(--column), 1fr);
     grid-gap: 0.1rem;
+    font-weight: 800;
+
 }
 
 .table > * > div {
